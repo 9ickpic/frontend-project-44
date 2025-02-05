@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import { gameDescriptionEven, getRoundDataEven } from "../src/games/even.js";
 import { runGame } from "../src/index.js";
 
