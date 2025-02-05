@@ -1,0 +1,37 @@
+{
+  "name": "@hexlet/code",
+  "version": "1.0.0",
+  "description": "first project \"games mind\"",
+  "homepage": "https://github.com/9ickpic/frontend-project-44#readme",
+  "bugs": {
+    "url": "https://github.com/9ickpic/frontend-project-44/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/9ickpic/frontend-project-44.git"
+  },
+  "license": "ISC",
+  "author": "Yaroslav Seluytin",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node bin/brain-games.js"
+  },
+  "bin": {
+    "brain-games": "./bin/brain-games.js",
+    "brain-even": "./bin/brain-even.js",
+    "brain-gcd": "./bin/brain-gcd.js",
+    "brain-progression": "./bin/brain-progression.js",
+    "brain-calc": "./bin/brain-calc.js",
+    "brain-prime": "./bin/brain-prime.js"
+  },
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.19.0",
+    "eslint": "^9.19.0",
+    "globals": "^15.14.0"
+  }
+}
