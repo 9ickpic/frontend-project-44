@@ -1,4 +1,4 @@
 import { runGame } from "../src/index.js";
 import { gameDescriptionCalc, getRoundDataCalculate } from "../src/games/calc.js";
 
-runGame(gameDescriptionCalc, getRoundDataCalculate);
+export const brainCalc = runGame(gameDescriptionCalc, getRoundDataCalculate);

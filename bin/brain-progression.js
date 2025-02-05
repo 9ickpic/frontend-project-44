@@ -1,4 +1,4 @@
 import { runGame } from "../src";
 import { gameDescriptionProgression, getRoundDataProgression } from "../src/games/progression";
 
-runGame(gameDescriptionProgression, getRoundDataProgression);
+export const brainProgression = runGame(gameDescriptionProgression, getRoundDataProgression);
