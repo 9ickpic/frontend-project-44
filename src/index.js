@@ -33,8 +33,11 @@ export function runGame(gameDescription, getRoundData) {
         } else {
             console.log(`'${userAnswer}' is wrong answer ;(. Correct answer was '${correctAnswer}'`);
             console.log(`Let's try again, ${greetName}`);
+            break;
+        }
+
+        if (round === 3) {
+            console.log(`Congratulations, ${greetName}`);
         }
     }
-
-    console.log(`Congratulations, ${greetName}`);
 }

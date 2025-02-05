@@ -1,4 +1,4 @@
-import { generationNumber } from "..";
+import { generationNumber } from "../index.js";
 
 export const gameDescriptionProgression = 'What number is missing in the progression?';
 

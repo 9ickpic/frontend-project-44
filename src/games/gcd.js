@@ -1,4 +1,4 @@
-import { generationNumber } from "..";
+import { generationNumber } from "../index.js";
 
 export const gameDescriptionGCD = 'Find the greatest common divisor of given numbers.';
 

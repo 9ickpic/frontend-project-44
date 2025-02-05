@@ -1,4 +1,4 @@
-import { runGame } from "../src";
+import { runGame } from "../src/index.js";
 import { gameDescriptionProgression, getRoundDataProgression } from "../src/games/progression";
 
-export const brainProgression = runGame(gameDescriptionProgression, getRoundDataProgression);
+runGame(gameDescriptionProgression, getRoundDataProgression);

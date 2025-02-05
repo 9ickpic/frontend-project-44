@@ -1,15 +1,7 @@
 #!/usr/bin/env node
 
-import { brainCalc } from "./brain-calc.js";
-import { brainEven } from "./brain-even.js";
-import { brainGCD } from "./brain-gcd.js";
-import { brainPrime } from "./brain-prime.js";
-import { brainProgression } from "./brain-progression.js";
+import { greeting } from "../src/cli.js";
 
 console.log(`Welcome to the Brain Games!`);
 
-brainEven();
-brainCalc();
-brainProgression();
-brainGCD();
-brainPrime();
+greeting();

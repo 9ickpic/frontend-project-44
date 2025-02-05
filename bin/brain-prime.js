@@ -1,4 +1,4 @@
 import { runGame } from "../src";
-import { gameDescriptionPrime, getRoundDataPrime } from "../src/games/prime";
+import { gameDescriptionPrime, getRoundDataPrime } from "../src/games/prime.js";
 
-export const brainPrime = runGame(gameDescriptionPrime, getRoundDataPrime);
+runGame(gameDescriptionPrime, getRoundDataPrime);
