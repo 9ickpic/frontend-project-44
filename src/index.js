@@ -1,5 +1,5 @@
 import readlineSync from 'readline-sync';
-import { greeting } from './cli.js';
+import greeting from './cli.js';
 
 export const generationNumber = (min = 0, max = 100) => {
   const number = Math.floor(Math.random() * (max - min + 1)) + min;
