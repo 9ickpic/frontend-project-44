@@ -1,6 +1,6 @@
 import { generationNumber } from '../index.js';
 
-export const gameDescriptionEven = `Answer "yes" if the number is even, otherwise answer "no".`;
+export const gameDescriptionEven = 'Answer "yes" if the number is even, otherwise answer "no".';
 
 export function getRoundDataEven() {
   const number = generationNumber(1, 100);

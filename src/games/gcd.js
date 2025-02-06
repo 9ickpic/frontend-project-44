@@ -1,7 +1,17 @@
 import { generationNumber } from '../index.js';
 
-export const gameDescriptionGCD =
-  'Find the greatest common divisor of given numbers.';
+export const gameDescriptionGCD = 'Find the greatest common divisor of given numbers.';
+
+function gcd(a, b) {
+  let localA = a;
+  let localB = b;
+  while (localB !== 0) {
+    const temp = localB;
+    localB = localA % localB;
+    localA = temp;
+  }
+  return localA;
+}
 
 export const getRoundDataGCD = () => {
   const num1 = generationNumber(1, 100);
@@ -11,13 +21,3 @@ export const getRoundDataGCD = () => {
 
   return [question, correctAnswer];
 };
-
-function gcd(a, b) {
-  while (b !== 0) {
-    const temp = b;
-    b = a % b;
-    a = temp;
-  }
-
-  return a;
-}

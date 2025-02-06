@@ -1,7 +1,6 @@
 import { generationNumber } from '../index.js';
 
-export const gameDescriptionPrime =
-  'Answer "yes" if given number is prime. Otherwise answer "no".';
+export const gameDescriptionPrime = 'Answer "yes" if given number is prime. Otherwise answer "no".';
 
 function isPrime(num) {
   if (num <= 1) return false;
