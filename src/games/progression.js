@@ -1,7 +1,7 @@
 import { generationNumber } from '../index.js';
 
-export const gameDescriptionProgression =
-  'What number is missing in the progression?';
+// prettier-ignore
+export const gameDescriptionProgression = 'What number is missing in the progression?';
 
 export function getRoundDataProgression() {
   const length = generationNumber(5, 10);

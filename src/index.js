@@ -11,9 +11,8 @@ export const checkAnswer = (name, userAnswer, correctAnswer) => {
     console.log('Correct!');
     return true;
   }
-  console.log(
-    `'${userAnswer}' is wrong answer ;(. Correct answer was '${correctAnswer}'.\nLet's try again, ${name}`
-  );
+  // prettier-ignore
+  console.log(`'${userAnswer}' is wrong answer ;(. Correct answer was '${correctAnswer}'.\nLet's try again, ${name}`);
   return false;
 };
 
@@ -28,9 +27,8 @@ export function runGame(gameDescription, getRoundData) {
     if (userAnswer === correctAnswer.toString()) {
       console.log('Correct!');
     } else {
-      console.log(
-        `'${userAnswer}' is wrong answer ;(. Correct answer was '${correctAnswer}'`
-      );
+      // prettier-ignore
+      console.log(`'${userAnswer}' is wrong answer ;(. Correct answer was '${correctAnswer}'`);
       console.log(`Let's try again, ${greetName}!`);
       break;
     }
