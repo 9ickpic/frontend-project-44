@@ -9,7 +9,7 @@ export function getRoundDataProgression() {
   const progression = [];
 
   const firstNumber = generationNumber(1, 100);
-  for (let i = 0; i < length; i + 1) {
+  for (let i = 0; i < length; i += 1) {
     progression.push(firstNumber + i * step);
   }
 
