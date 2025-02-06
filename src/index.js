@@ -37,7 +37,7 @@ export function runGame(gameDescription, getRoundData) {
         }
 
         if (round === 3) {
-            console.log(`Congratulations, ${greetName}`);
+            console.log(`Congratulations, ${greetName}!`);
         }
     }
 }
